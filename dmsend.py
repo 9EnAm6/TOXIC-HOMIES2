@@ -26,9 +26,9 @@ async def on_message(message):
                 try:
                     msg = message.content[4:]
                     if message.author.id == 541975332593336337:
-                        embed = discord.Embed(colour=0x1DDB16, timestamp=message.created_at, title="TOXIC-HOMIES2")
-                        embed.add_field(name="TOXIC-HOMIES2", value=msg, inline=True)
-                        embed.set_footer(text=f"https://discord.gg/4388Qha")
+                        embed = discord.Embed(colour=0x1DDB16, timestamp=message.created_at, title="")
+                        embed.add_field(name="", value=msg, inline=True)
+                        embed.set_footer(text=f"")
                         await i.send(embed=embed)
                 except:
                     pass
