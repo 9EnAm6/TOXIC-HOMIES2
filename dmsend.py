@@ -12,7 +12,7 @@ client = discord.Client()
 @client.event
 async def on_ready():
     print("봇실행이 시작되었습니다(24시간 온라인).")
-    game = discord.Game('I Am So Toxic')
+    game = discord.Game('With Toxic Homies')
     await client.change_presence(status=discord.Status.online, activity=game)
 
 #/dm {할말}로 전체DM 전송
