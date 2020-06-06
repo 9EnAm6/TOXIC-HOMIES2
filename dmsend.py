@@ -34,4 +34,4 @@ async def on_message(message):
                     pass
 
 
-client.run('NzE4NzQ4NjA3MjE3NDAxOTg4.XttY4A.DV6MPO3bsx3vXdHmzfQyhzmKHm0')
+client.run('NzE4NzQ4NjA3MjE3NDAxOTg4.XttcDQ.530YsZRKg62tldrfLNzJ2y-gSiw')
